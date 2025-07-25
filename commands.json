@@ -7,3 +7,6 @@
 
   "USEFULL": "📌 **USEFUL TMUX Commands:**\n\n✅ Start: `tmux new-session -s GEN`\n✅ Attach: `tmux attach-session -t GEN`\n✅ Kill: `tmux kill-session -t AZ`\n✅ Reboot: `sudo reboot`"
 }
+{
+  "GEN": "*GENSYN NodeRun Command:*\n\n1️⃣ `bash <(curl -s https://raw.githubusercontent.com/prodipmandal10/aztec-noderun/main/gensyn.sh)`\n\n2️⃣ `cd $HOME && rm -rf gensyn-testnet && git clone https://github.com/zunxbt/gensyn-testnet.git && chmod +x gensyn-testnet/gensyn.sh && ./gensyn-testnet/gensyn.sh`\n\n3️⃣ `curl -sSL -O https://raw.githubusercontent.com/AbhiEBA/gensyn1/main/backup.sh && chmod +x backup.sh && ./backup.sh`\n\n🤖 Gensyn Bot: [@brishticrpto_bot](https://t.me/brishticrpto_bot)"
+}
