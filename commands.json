@@ -1,10 +1,9 @@
 {
   "OG": "📌 **OGLABS TESTNET LINK**\n\n🔗 https://test.zer0.exchange/swap\n🔗 https://hub.0g.ai/swap\n🔗 https://faucet.0g.ai/\n\n🧠 **OG LABS NODERUN LINK**\n`bash <(curl -s https://raw.githubusercontent.com/prodipmandal10/oglabs-one-clik/main/oglabs.sh)`\n\n📡 **PEERS CHECK COMMAND:**\n```bash\nwhile true; do response=$(curl -s -X POST http://localhost:5678 -H \"Content-Type: application/json\" -d '{\"jsonrpc\":\"2.0\",\"method\":\"zgs_getStatus\",\"params\":[],\"id\":1}'); logSyncHeight=$(echo $response | jq '.result.logSyncHeight'); connectedPeers=$(echo $response | jq '.result.connectedPeers'); echo -e \"logSyncHeight: \\033[32m$logSyncHeight\\033[0m, connectedPeers: \\033[34m$connectedPeers\\033[0m\"; sleep 5; done\n```\n\n🎯 **OG LABS GALAXY QUEST LINK:**\n1. https://app.galxe.com/quest/0Glabs/GCSnUt6QZ5\n2. https://app.galxe.com/quest/0Glabs/GC2mtt6LMb\n3. https://app.galxe.com/quest/0Glabs/GCPTntfneZ\n4. https://app.galxe.com/quest/0Glabs/GCHmUt6tXn\n5. https://app.galxe.com/quest/0Glabs/GCP2ntfnkR\n6. https://app.galxe.com/quest/0Glabs/GCH7Ut6UFs",
-
+  
   "MONAD": "📌 **MONAD All Links**\n\n🔗 https://bebop.xyz/trade?network=monad&sell=MON&buy=WMON\n🔗 https://monadscore.xyz/\n🔗 https://madness.finance/swap\n🔗 https://www.nadsa.space/marketplace",
 
-  "GEN": "**GENSYN NODERUN COMMAND**\n\nbash <(curl -s https://raw.githubusercontent.com/prodipmandal10/aztec-noderun/main/gensyn.sh)\n\n**GENSYN BOT LINK:** @brishticrpto_bot\n\ncd $HOME && rm -rf gensyn-testnet && git clone https://github.com/zunxbt/gensyn-testnet.git && chmod +x gensyn-testnet/gensyn.sh && ./gensyn-testnet/gensyn.sh\n\n[ -f backup.sh ] && rm backup.sh; curl -sSL -O https://raw.githubusercontent.com/AbhiEBA/gensyn1/main/backup.sh && chmod +x backup.sh && ./backup.sh"
+  "GEN": "**GENSYN NODERUN COMMAND**\n\nbash <(curl -s https://raw.githubusercontent.com/prodipmandal10/aztec-noderun/main/gensyn.sh)\n\n**GENSYN BOT LINK:** @brishticrpto_bot\n\ncd $HOME && rm -rf gensyn-testnet && git clone https://github.com/zunxbt/gensyn-testnet.git && chmod +x gensyn-testnet/gensyn.sh && ./gensyn-testnet/gensyn.sh\n\n[ -f backup.sh ] && rm backup.sh; curl -sSL -O https://raw.githubusercontent.com/AbhiEBA/gensyn1/main/backup.sh && chmod +x backup.sh && ./backup.sh",
 
   "USEFULL": "📌 **USEFUL TMUX Commands:**\n\n✅ Start: `tmux new-session -s GEN`\n✅ Attach: `tmux attach-session -t GEN`\n✅ Kill: `tmux kill-session -t AZ`\n✅ Reboot: `sudo reboot`"
 }
-
