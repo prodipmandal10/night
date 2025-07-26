@@ -8,4 +8,3 @@
   "USEFULL": "📌 **USEFUL TMUX Commands:**\n\n✅ Start: `tmux new-session -s GEN`\n✅ Attach: `tmux attach-session -t GEN`\n✅ Kill: `tmux kill-session -t AZ`\n✅ Reboot: `sudo reboot`"
 }
 
-
